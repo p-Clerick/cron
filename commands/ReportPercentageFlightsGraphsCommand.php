@@ -13,6 +13,10 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
                 'date' => $day,
             ]);
             $dy = $find->found_days;
+            if (!$dy){
+                echo "No days to report\n";
+                return false;
+            }
             $dyy = explode(",", $dy);
             foreach ($dyy as $key => $value) {
                 $rewiew[$key] = $value;
