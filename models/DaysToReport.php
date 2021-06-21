@@ -40,14 +40,13 @@ class DaysToReport extends CActiveRecord {
     public function getDaysToReportByDate($date) {
     	$sql = $this->findByAttributes(array('date' => $date));
 
-        return array (
+        return $sql ? array (
             'id'                  		=> $sql->id,
             'date'           			=> $sql->date,
             'locations_flights_id_from' => $sql->locations_flights_id_from,
             'locations_flights_id_to'   => $sql->locations_flights_id_to,
             'found_days' 				=> $sql->found_days
-        );
+        ) : [];
     }
 }
 
-?>
