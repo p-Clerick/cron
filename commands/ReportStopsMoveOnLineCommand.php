@@ -3,6 +3,7 @@ Yii::import('application.models.*');
 class ReportStopsMoveOnLineCommand extends CConsoleCommand
 {
 	public function run($dateToRecalc) {
+
  		$rewiew=$dateToRecalc;
  		$countDate=count($rewiew);
  		if ($countDate==0){
@@ -10,6 +11,10 @@ class ReportStopsMoveOnLineCommand extends CConsoleCommand
  			$find=DaysToReport::model()->findByAttributes(array(
  				'date'=>$day));
  			$dy=$find->found_days;
+ 			if (!$dy){
+ 			    echo "No days to report\n";
+ 			    return false;
+            }
  			$dyy=explode(",", $dy);
  			foreach ($dyy as $key => $value) {
  				$rewiew[$key]=$value;
@@ -60,7 +65,8 @@ class ReportStopsMoveOnLineCommand extends CConsoleCommand
 				$newRecordReport->save();
 			}
 			else if ($countSql!=0) {
-				$success[$cd]='Y';		    
+				$success[$cd]='Y';
+                $arrayTimeGraphs = [];
 				foreach ($sql as $key => $value) {
 					foreach ($value as $key2 => $value2) {
 						if ($key2=='time_difference') {
@@ -68,6 +74,7 @@ class ReportStopsMoveOnLineCommand extends CConsoleCommand
 	 					}
 	 				}
 	 			}
+                $arrayToInsertGraphs = [];
 				foreach ($arrayTimeGraphs as $stat => $value) {
 					foreach ($value as $route => $value1) {
 						foreach ($value1 as $gr => $value2) {
@@ -92,10 +99,12 @@ class ReportStopsMoveOnLineCommand extends CConsoleCommand
 					$e->stations_id=$arrayToInsertGraphs[$i]['stat'];
 					$e->average_deviation=$arrayToInsertGraphs[$i]['middle'];
 					$e->save();
-				}	
+				}
+                $arrayTimeRoutes = [];
 				for ($i=0; $i < $countInsertGraphs; $i++) {
 					$arrayTimeRoutes[$arrayToInsertGraphs[$i]['stat']][$arrayToInsertGraphs[$i]['route']][]=$arrayToInsertGraphs[$i]['middle'];
 				}
+                $arrayToInsertRoutes = [];
 				foreach ($arrayTimeRoutes as $stat => $value) {
 					foreach ($value as $route => $value1) {
 						$countRecord=count($value1);
@@ -117,9 +126,11 @@ class ReportStopsMoveOnLineCommand extends CConsoleCommand
 					$e->average_deviation=$arrayToInsertRoutes[$i]['middle'];
 					$e->save();
 				}
+                $arrayTimeBuses = [];
 				for ($i=0; $i < $countInsertRoutes; $i++) {
 					$arrayTimeBuses[$arrayToInsertRoutes[$i]['stat']][]=$arrayToInsertRoutes[$i]['middle'];
 				}
+                $arrayToInsertBuses = [];
 				foreach ($arrayTimeBuses as $stat => $value) {
 					$countRecord=count($value);
 					$sumRecord=array_sum($value);
@@ -160,4 +171,3 @@ class ReportStopsMoveOnLineCommand extends CConsoleCommand
 		}
     }
 }
-?>
