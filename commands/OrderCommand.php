@@ -79,6 +79,7 @@ class OrderCommand extends CConsoleCommand
   			 		$graphs = Graphs::model()->findByPk($order->graph->id); 			 		
    			 		$schedules = $graphs->getCurrentSchedule($schedules_types_id);   			 		
    			 		foreach ($bort_arr as $bort) {
+						$borts_id = 0;
    			 			if($bort == $orderload->bort->id){
    			 				//echo $bort." dubl\n";
    			 				$borts_id = $orderload->bort->id;
@@ -239,4 +240,4 @@ class OrderCommand extends CConsoleCommand
      	}
     //}
 }
-?>
+
