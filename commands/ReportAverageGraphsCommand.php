@@ -21,11 +21,14 @@ class ReportAverageGraphsCommand extends CConsoleCommand
             if ($rewiew[$cd]!=null) {//якщо треба перерахувати вручну за якийсь день
                 $dayToCalc[$cd]=$rewiew[$cd];//присвоюємо час що ввели вручну
                 //видаляемо дані з таблиць
-                ReportAverageGraphs::model()->deleteAll(array(
-                    'condition' => 'date = :d',
-                    'params' => array(':d' => $dayToCalc[$cd])));
-
-            }//якщо перерахунок вручну
+                if ($dayToCalc[$cd]){
+                    ReportAverageGraphs::model()->deleteAll([
+                        'condition' => 'date = :d',
+                        'params'    => [':d' => $dayToCalc[$cd]]
+                    ]);
+                }
+            }
+                //якщо перерахунок вручну
             if ($rewiew[$cd]==null){//робимо вночі кожного дня
                 $dayToCalc[$cd]=date("Y-m-d",strtotime ("yesterday"));//присвоюємо час що відповідає вчорашньому дню
             }//if calc yesterday
