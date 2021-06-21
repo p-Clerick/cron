@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2122fa2b-4c0a-4b5e-bb7b-608b6cccf5b8" name="Cron">
+        <fileTransfer rootFolder="/usr/local/www/lutsk/app" accessType="SFTP" host="193.109.144.51" port="22" sshConfigId="923d5cfd-ef0c-4c4b-b20e-b42984d2901d" sshConfig="maklutsk@193.109.144.51:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
