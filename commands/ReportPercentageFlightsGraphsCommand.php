@@ -101,8 +101,8 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
                 $countFact = [];
                 foreach ($arrayPlan as $schedid => $arFl) {
                     foreach ($arFl as $flN => $arSt) {
-                        $countFact[$schedid][$flN] = count($arrayFact[$schedid][$flN]);
-                        $countPlan[$schedid][$flN] = count($arrayPlan[$schedid][$flN]);
+                        $countFact[$schedid][$flN] = isset($arrayFact[$schedid][$flN]) ? count($arrayFact[$schedid][$flN]) : 0;
+                        $countPlan[$schedid][$flN] = isset($arrayPlan[$schedid][$flN]) ? count($arrayPlan[$schedid][$flN]) : 0;
 
                     }
                 }
@@ -128,7 +128,7 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
                             $u[$schedid][$flN] = 1;
                         }
                         $kkkk[$schedid][$flN] = round($countFact[$schedid][$flN] / $countPlan[$schedid][$flN] * 100, 2);
-                        if ($arrayEndStops[$arraySchedules[$schedid][0]][$arraySchedules[$schedid][1]][$flN] >= 1) {
+                        if ($arrayEndStops && $arrayEndStops[$arraySchedules[$schedid][0]][$arraySchedules[$schedid][1]][$flN] >= 1) {
                             $kkkk[$schedid][$flN] = 0;
                         }
                         if (round($countFact[$schedid][$flN] / $countPlan[$schedid][$flN] * 100, 2) == 100) {
@@ -192,25 +192,25 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
                 $arrayInsertGraphs = [];
                 for ($i = 0; $i < $countAIF; $i++) {
                     //всього рейсів за планом
-                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_plan'] = $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_plan'] + $arrayInsertFlights[$i]['countFlightPlan'];
+                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_plan'] = ($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_plan'] ?? 0) + ($arrayInsertFlights[$i]['countFlightPlan'] ?? 0);
                     //всього рейсів по факту
-                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_fakt'] = $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_fakt'] + $arrayInsertFlights[$i]['countFlightFakt'];
+                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_fakt'] = ($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_fakt'] ?? 0) + ($arrayInsertFlights[$i]['countFlightFakt'] ?? 0);
                     //всього % рейсів за ф/план*100,2
                     $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_flight'] = round($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_fakt'] / $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_plan'] * 100, 2);
 //echo "____________________";
                     //всього точок за планом
-                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_plan'] = $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_plan'] + $arrayInsertFlights[$i]['countStationPlan'];
+                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_plan'] = ($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_plan'] ?? 0) + ($arrayInsertFlights[$i]['countStationPlan'] ?? 0);
                     //всього точок по факту
-                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_fakt'] = $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_fakt'] + $arrayInsertFlights[$i]['countStationFakt'];
+                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_fakt'] = ($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_fakt'] ?? 0) + ($arrayInsertFlights[$i]['countStationFakt'] ?? 0);
                     //всього % точок за ф/план*100,2
                     $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_stations'] = round($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_fakt'] / $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_stations_plan'] * 100, 2);
 
                     //сума % реалізації
-                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_realization00'] = $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_realization00'] + $arrayInsertFlights[$i]['percentrealization'];
+                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_realization00'] = ($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_realization00'] ?? 0) + ($arrayInsertFlights[$i]['percentrealization'] ?? 0);
                     //сума % реалізації/кількіть рейсів - середнє арифметичне
                     $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_realization11'] = round($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['percentage_realization00'] / $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_flight_plan'], 2);
                     //всього пів рейсів
-                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_route_directions'] = $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_route_directions'] + $arrayInsertFlights[$i]['count_route_directions'];
+                    $arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_route_directions'] = ($arrayInsertGraphs[$arrayInsertFlights[$i]['route_id']][$arrayInsertFlights[$i]['graphs_id']]['count_route_directions'] ?? 0) + ($arrayInsertFlights[$i]['count_route_directions'] ?? 0);
                 }
                 //видаляемо дані з таблиць
                 ReportPercentageGraphs::model()->deleteAll([
@@ -254,14 +254,14 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
                         else {
                             $carrierid = $graphObject->carriers_id;
                         }
-                        $arrayInsertRoute[$routeid][$carrierid]['count_stations_plan'] = $arrayInsertRoute[$routeid][$carrierid]['count_stations_plan'] + $arrayInsertGraphs[$routeid][$graphsid]['count_stations_plan'];
-                        $arrayInsertRoute[$routeid][$carrierid]['count_stations_fakt'] = $arrayInsertRoute[$routeid][$carrierid]['count_stations_fakt'] + $arrayInsertGraphs[$routeid][$graphsid]['count_stations_fakt'];
-                        $arrayInsertRoute[$routeid][$carrierid]['count_flight_plan'] = $arrayInsertRoute[$routeid][$carrierid]['count_flight_plan'] + $arrayInsertGraphs[$routeid][$graphsid]['count_flight_plan'];
-                        $arrayInsertRoute[$routeid][$carrierid]['count_flight_fakt'] = $arrayInsertRoute[$routeid][$carrierid]['count_flight_fakt'] + $arrayInsertGraphs[$routeid][$graphsid]['count_flight_fakt'];
-                        $arrayInsertRoute[$routeid][$carrierid]['percentage_realization11'] = $arrayInsertRoute[$routeid][$carrierid]['percentage_realization11'] + $arrayInsertGraphs[$routeid][$graphsid]['percentage_realization11'];
+                        $arrayInsertRoute[$routeid][$carrierid]['count_stations_plan'] = ($arrayInsertRoute[$routeid][$carrierid]['count_stations_plan'] ?? 0) + ($arrayInsertGraphs[$routeid][$graphsid]['count_stations_plan'] ?? 0);
+                        $arrayInsertRoute[$routeid][$carrierid]['count_stations_fakt'] = ($arrayInsertRoute[$routeid][$carrierid]['count_stations_fakt'] ?? 0) + ($arrayInsertGraphs[$routeid][$graphsid]['count_stations_fakt'] ?? 0);
+                        $arrayInsertRoute[$routeid][$carrierid]['count_flight_plan'] = ($arrayInsertRoute[$routeid][$carrierid]['count_flight_plan'] ?? 0) + ($arrayInsertGraphs[$routeid][$graphsid]['count_flight_plan'] ?? 0);
+                        $arrayInsertRoute[$routeid][$carrierid]['count_flight_fakt'] = ($arrayInsertRoute[$routeid][$carrierid]['count_flight_fakt'] ?? 0) + ($arrayInsertGraphs[$routeid][$graphsid]['count_flight_fakt'] ?? 0);
+                        $arrayInsertRoute[$routeid][$carrierid]['percentage_realization11'] = ($arrayInsertRoute[$routeid][$carrierid]['percentage_realization11'] ?? 0) + ($arrayInsertGraphs[$routeid][$graphsid]['percentage_realization11'] ?? 0);
 
-                        $arrayInsertRoute[$routeid][$carrierid]['count_route_directions'] = $arrayInsertRoute[$routeid][$carrierid]['count_route_directions'] + $arrayInsertGraphs[$routeid][$graphsid]['count_route_directions'];
-                        $arrayInsertRoute[$routeid][$carrierid]['graphs_for_route_count'] = $arrayInsertRoute[$routeid][$carrierid]['graphs_for_route_count'] + 1;
+                        $arrayInsertRoute[$routeid][$carrierid]['count_route_directions'] = ($arrayInsertRoute[$routeid][$carrierid]['count_route_directions'] ?? 0) + ($arrayInsertGraphs[$routeid][$graphsid]['count_route_directions'] ?? 0);
+                        $arrayInsertRoute[$routeid][$carrierid]['graphs_for_route_count'] = ($arrayInsertRoute[$routeid][$carrierid]['graphs_for_route_count'] ?? 0) + 1;
                     }
                     $carrierid = '';
                 }

@@ -86,7 +86,7 @@ class ReportSpeedCommand extends CConsoleCommand
                             for ($i = 0; $i < count($gidArray) - 1; $i++) {
                                 $timeBetween = $gidArray[$i + 1]['unixtime'] - $gidArray[$i]['unixtime'];
                                 if ($timeBetween > $maxTimeToNoData) {
-                                    $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] = $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] + $timeBetween;
+                                    $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] = ($arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] ?? 0) + $timeBetween;
                                 }
                                 else if ($timeBetween <= $maxTimeToNoData) {
                                     if ($timeBetween == 0) {
@@ -122,7 +122,7 @@ class ReportSpeedCommand extends CConsoleCommand
                                         $Distance = $dist;
                                         $speed = round(($Distance / $timeBetween) * 3.6, 2);
                                         $roundToInt = intval($speed);
-
+                                        $newKey = 0;
                                         if (isset($roundToInt)) {
                                             if ($roundToInt < 120) {
                                                 if (($gidArray[$i]['speed'] == 0) || ($gidArray[$i + 1]['speed'] == 0)) {
@@ -141,10 +141,10 @@ class ReportSpeedCommand extends CConsoleCommand
                                                 $newKey = 1;
                                             }
                                             if ($newKey == 1) {
-                                                $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] = $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] + $timeBetween;
+                                                $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] = ($arraySpeedBeetwen[$arrayBorts[$bi]][$gid][999] ?? 0) + $timeBetween;
                                             }
                                             if ($newKey == 0) {
-                                                $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][$roundToInt] = $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][$roundToInt] + $timeBetween;
+                                                $arraySpeedBeetwen[$arrayBorts[$bi]][$gid][$roundToInt] = ($arraySpeedBeetwen[$arrayBorts[$bi]][$gid][$roundToInt] ?? 0) + $timeBetween;
                                             }
 
                                         }
@@ -165,8 +165,12 @@ class ReportSpeedCommand extends CConsoleCommand
                                         $insert = new ReportSpeedBorts;
                                         $insert->date = $dayToCalc[$cd];
                                         $insert->borts_id = $bid;
-                                        $insert->carriers_id = $arrayCarriers[$arrayGraphs[$gid]];
-                                        $insert->routes_id = $arrayGraphs[$gid];
+                                        if(isset($arrayGraphs[$gid]) && isset($arrayCarriers[$arrayGraphs[$gid]])) {
+                                            $insert->carriers_id = $arrayCarriers[$arrayGraphs[$gid]];
+                                        }
+                                        if(isset($arrayGraphs[$gid])) {
+                                            $insert->routes_id = $arrayGraphs[$gid];
+                                        }
                                         $insert->graphs_id = $gid;
                                         $insert->speed_level = $key;
                                         $insert->time_sum = $value;
@@ -176,8 +180,12 @@ class ReportSpeedCommand extends CConsoleCommand
                                         $insert = new ReportSpeedBorts;
                                         $insert->date = $dayToCalc[$cd];
                                         $insert->borts_id = $bid;
-                                        $insert->carriers_id = $arrayCarriers[$arrayGraphs[$gid]];
-                                        $insert->routes_id = $arrayGraphs[$gid];
+                                        if(isset($arrayGraphs[$gid]) && isset($arrayCarriers[$arrayGraphs[$gid]])) {
+                                            $insert->carriers_id = $arrayCarriers[$arrayGraphs[$gid]];
+                                        }
+                                        if(isset($arrayGraphs[$gid])) {
+                                            $insert->routes_id = $arrayGraphs[$gid];
+                                        }
                                         $insert->graphs_id = $gid;
                                         $insert->speed_level = null;
                                         $insert->time_sum = $value;
