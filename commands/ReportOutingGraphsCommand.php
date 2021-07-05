@@ -1,29 +1,13 @@
 <?php
 Yii::import('application.models.*');
 
+
 class ReportOutingGraphsCommand extends CConsoleCommand
 {
     public function run($dateToRecalc)
     {
 
-        $rewiew = $dateToRecalc;
-        $countDate = count($rewiew);
-        if ($countDate == 0) {
-            $day = date('Y-m-d');
-            $find = DaysToReport::model()->findByAttributes([
-                'date' => $day,
-            ]);
-            $dy = $find->found_days;
-            if (!$dy){
-                echo "No days to report\n";
-                return false;
-            }
-            $dyy = explode(",", $dy);
-            foreach ($dyy as $key => $value) {
-                $rewiew[$key] = $value;
-            }
-            $countDate = count($rewiew);
-        }
+        list($rewiew, $countDate) = getRewiew($dateToRecalc);
 
         for ($cd = 0; $cd < $countDate; $cd++) {
             $ab = Borts::model()->with('park')->findAll();
@@ -55,18 +39,19 @@ class ReportOutingGraphsCommand extends CConsoleCommand
             if (!isset($day)) {
                 $day = date("Y-m-d");
             }
-            $startTimeReport = $dayToCalc[$cd] = time();
+            $startTimeReport = time();
 
             if ($rewiew[$cd] != null) {        //якщо треба перерахувати вручну за якийсь день
                 $dayToCalc[$cd] = $rewiew[$cd];//присвоюємо час що ввели вручну
             }//якщо перерахунок
-            if ($rewiew[$cd] == null) {                                 //робимо вночі кожного дня
+            else {                                                      //робимо вночі кожного дня
                 $dayToCalc[$cd] = date("Y-m-d", strtotime("yesterday"));//присвоюємо час що відповідає вчорашньому дню
             }//if calc yesterday
             //сам розрахунок
             $todayFrom[$cd] = strtotime($dayToCalc[$cd]) + 3600;
             $todayTo[$cd] = strtotime($dayToCalc[$cd]) + 23 * 3600 + 59 * 60 + 60 + 3600;
             $statusBortsOut = $arrayBorts;
+
             for ($i = 0; $i < $countAllGraphs; $i++) {
                 $e = LocationsFlights::model()->find([
                     'select'    => 'borts_id',

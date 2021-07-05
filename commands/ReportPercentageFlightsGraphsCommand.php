@@ -5,24 +5,7 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
 {
     public function run($dateToRecalc)
     {
-        $rewiew = $dateToRecalc;
-        $countDate = count($rewiew);
-        if ($countDate == 0) {
-            $day = date('Y-m-d');
-            $find = DaysToReport::model()->findByAttributes([
-                'date' => $day,
-            ]);
-            $dy = $find->found_days;
-            if (!$dy){
-                echo "No days to report\n";
-                return false;
-            }
-            $dyy = explode(",", $dy);
-            foreach ($dyy as $key => $value) {
-                $rewiew[$key] = $value;
-            }
-            $countDate = count($rewiew);
-        }
+        list($rewiew, $countDate) = getRewiew($dateToRecalc);
         $ds = StationsScenario::model()->findAll();
         $arrayPlanDirections = [];
         foreach ($ds as $key111) {

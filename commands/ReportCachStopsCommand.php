@@ -3,19 +3,7 @@ Yii::import('application.models.*');
 class ReportCachStopsCommand extends CConsoleCommand
 {
 	public function run($dateToRecalc) {
-		$rewiew=$dateToRecalc;
-		$countDate=count($rewiew);
-		if ($countDate==0){
- 			$day=date('Y-m-d');
- 			$find=DaysToReport::model()->findByAttributes(array(
- 				'date'=>$day));
- 			$dy=$find->found_days;
- 			$dyy=explode(",", $dy);
- 			foreach ($dyy as $key => $value) {
- 				$rewiew[$key]=$value;
- 			}
- 			$countDate=count($rewiew);
- 		}
+        list($rewiew, $countDate) = getRewiew($dateToRecalc);
  		$pc=StationsScenario::model()->findAll();
 		foreach ($pc as $k) {
 			$arrPc[$k->routes_id][$k->stations_id]=array(

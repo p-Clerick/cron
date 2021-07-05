@@ -39,9 +39,6 @@ class TestReportEndStopsCommand extends CConsoleCommand
          * Масив з даними про дати для яких необхідно розрахувати звіт
          */
         $datesToCalcReport = $this->getDatesToCalcReport($args);
-        if (!$datesToCalcReport){
-            return [];
-        }
 
         /**
          * Масив всіх сценаріїв зупинок з точками контролю
@@ -308,7 +305,7 @@ class TestReportEndStopsCommand extends CConsoleCommand
              */
             $datesToCalcReportFromDB = DaysToReport::model()->getDaysToReportByDate($args[0]);
         }
-        $result = [];
+
         if ($datesToCalcReportFromDB) {
             /**
              * Масив з датами для розрахунку звіту

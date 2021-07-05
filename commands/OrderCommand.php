@@ -71,6 +71,7 @@ class OrderCommand extends CConsoleCommand
             'order' => 't.id'));
 
 		foreach($rt_gr_list as $rgl){
+		    $borts_id = 0;
 			foreach($orders as $order){
 				if ($rgl->id == $order->graph->id){
 					$orderload = new OrdersLoad;
@@ -79,7 +80,6 @@ class OrderCommand extends CConsoleCommand
   			 		$graphs = Graphs::model()->findByPk($order->graph->id); 			 		
    			 		$schedules = $graphs->getCurrentSchedule($schedules_types_id);   			 		
    			 		foreach ($bort_arr as $bort) {
-						$borts_id = 0;
    			 			if($bort == $orderload->bort->id){
    			 				//echo $bort." dubl\n";
    			 				$borts_id = $orderload->bort->id;

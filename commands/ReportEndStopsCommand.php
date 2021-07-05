@@ -5,20 +5,7 @@ class ReportEndStopsCommand extends CConsoleCommand
 {
     public function run($dateToRecalc)
     {
-        $rewiew = $dateToRecalc;
-        $countDate = count($rewiew);
-        if ($countDate == 0) {
-            $day = date('Y-m-d');
-            $find = DaysToReport::model()->findByAttributes([
-                'date' => $day,
-            ]);
-            $dy = $find->found_days;
-            $dyy = explode(",", $dy);
-            foreach ($dyy as $key => $value) {
-                $rewiew[$key] = $value;
-            }
-            $countDate = count($rewiew);
-        }
+        list($rewiew, $countDate) = getRewiew($dateToRecalc);
         //шукаемо точки контролю по сценарію
         $pc = StationsScenario::model()->findAll([
             'condition' => 'pc_status = :st',
