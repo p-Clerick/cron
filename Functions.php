@@ -22,3 +22,13 @@ function getRewiew($dateToRecalc)
     return [$rewiew, $countDate];
 
 }
+
+function logger($text, $data, $logname = 'custom'){
+    $fileName = getcwd() . '/runtime/LOG/' . $logname . '.log';
+
+    // echo "\n" . $fileName . "\n";
+
+    $file = fopen($fileName, 'a');
+    fwrite($file, "\n\n" . date('H:i:s d-m-Y: ' . $text . ': ' . var_export($data, true) ) );
+    fclose($file);
+}

@@ -6,7 +6,6 @@ class ReportOutingGraphsCommand extends CConsoleCommand
 {
     public function run($dateToRecalc)
     {
-
         list($rewiew, $countDate) = getRewiew($dateToRecalc);
 
         for ($cd = 0; $cd < $countDate; $cd++) {

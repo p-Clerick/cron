@@ -1,4 +1,4 @@
 #!/usr/bin/env php
 <?php
-
+chdir(dirname(__FILE__));
 require_once(dirname(__FILE__).'/yiic.php');

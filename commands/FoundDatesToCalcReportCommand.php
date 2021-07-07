@@ -3,27 +3,23 @@ Yii::import('application.models.*');
 
 class FoundDatesToCalcReportCommand extends CConsoleCommand
 {
-//	public function run() {
     public function run($args)
     {
-        error_log(print_r($args));
         $lastLocationsFlightId = Yii::app()->db->createCommand("SELECT max(locations_flights_id_to) from days_to_calc_report")->queryScalar();
-        error_log('lastLocationsFlightId: ' . $lastLocationsFlightId);
+        logger('lastLocationsFlightId: ' , $lastLocationsFlightId);
         $toId = Yii::app()->db->createCommand("SELECT max(id) from locations_in_flights")->queryScalar();
-        error_log('toId: ' . $toId);
+        logger('toId: ' , $toId);
         $findDate = Yii::app()->db->createCommand("SELECT unixtime from locations_in_flights where id>" . $lastLocationsFlightId . " order by unixtime DESC")->queryAll();
-        error_log(print_r($findDate));
+        logger('findDate', $findDate);
         $foundDatas = [];
         foreach ($findDate as $key => $value) {
-            error_log('findDate: ' . $value);
+//            logger('findDate: ' , $value);
             $date = date("Y-m-d", $value['unixtime']);
-            if ($date < date("Y-m-d", strtotime('today'))) {
-                if ($date > date("Y-m-d", strtotime("-90 days"))) {
+            if ($date < date("Y-m-d", strtotime('today')) && ($date > date("Y-m-d", strtotime("-90 days")))) {
                     $foundDatas[$date] = $date;
-                }
             }
         }
-
+        logger('Fonded dates', $foundDatas );
         $r = 0;
 		$days = 0;
         foreach ($foundDatas as $key => $value) {
@@ -45,4 +41,4 @@ class FoundDatesToCalcReportCommand extends CConsoleCommand
     }
 }
 
-?>
+

@@ -97,7 +97,7 @@ class ReportPercentageFlightsGraphsCommand extends CConsoleCommand
                 ]);
                 $arrayEndStops = [];
                 foreach ($endStops as $k) {
-                    $arrayEndStops[$k->routes_id][$k->graphs_id][$k->flights_number] = $arrayEndStops[$k->routes_id][$k->graphs_id][$k->flights_number] + 1;
+                    $arrayEndStops[$k->routes_id][$k->graphs_id][$k->flights_number] = ($arrayEndStops[$k->routes_id][$k->graphs_id][$k->flights_number] ?? 0)+ 1;
                 }
 
                 //insert
